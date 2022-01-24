@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "json-server": "json-server --watch mock_db.json --port 5000 --nc false"
   },
   "dependencies": {
+    "bootstrap-icons": "^1.7.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
